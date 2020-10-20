@@ -30,7 +30,7 @@ class Firebase {
     return this.auth.signOut();
   }
 
-  resetPassword() {
+  resetPassword(email) {
     return this.auth.sendPasswordResetEmail(email);
   }
 }
